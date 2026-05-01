@@ -30,35 +30,106 @@
     <div class="inner-panel">
       <div class="about-card">
         <div class="sprite-container">
-          <div class="character-frame">
-            <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <!-- Background -->
-              <rect width="16" height="16" fill="#b8e4f7"/>
-              <!-- Long hair on sides -->
-              <rect x="1" y="4" width="2" height="11" fill="#3d2815"/>
-              <rect x="13" y="4" width="2" height="11" fill="#3d2815"/>
-              <!-- Hair on top/back -->
-              <rect x="3" y="1" width="10" height="5" fill="#3d2815"/>
-              <!-- Face -->
-              <rect x="4" y="5" width="8" height="7" fill="#f5c18a"/>
-              <!-- Left eye frame -->
-              <rect x="5" y="6" width="2" height="2" fill="#87ceeb"/>
-              <rect x="5" y="6" width="2" height="2" fill="none" stroke="#333" stroke-width="0.5"/>
-              <!-- Right eye frame -->
-              <rect x="9" y="6" width="2" height="2" fill="#87ceeb"/>
-              <rect x="9" y="6" width="2" height="2" fill="none" stroke="#333" stroke-width="0.5"/>
-              <!-- Bridge of glasses -->
-              <rect x="7" y="6.5" width="2" height="1" fill="none" stroke="#333" stroke-width="0.5"/>
-              <!-- Nose -->
-              <rect x="7.5" y="8" width="1" height="1" fill="#e8b399"/>
-              <!-- Mouth smile -->
-              <rect x="6" y="10" width="4" height="1" fill="#d9754a"/>
-              <!-- Body/shirt -->
-              <rect x="3" y="12" width="10" height="3" fill="#4a7ec8"/>
-              <!-- Shadow -->
-              <rect x="4" y="15" width="8" height="1" fill="rgba(0,0,0,0.2)"/>
-            </svg>
-          </div>
+        <div class="character-frame">
+              <svg
+                viewBox="0 0 16 20"
+                xmlns="http://www.w3.org/2000/svg"
+                style="image-rendering:pixelated; width:100%; height:100%;"
+              >
+                <!-- sky bg -->
+                <rect width="16" height="20" fill="#b8e4f7" />
+
+
+                <!-- LONG HAIR back layer (behind body) -->
+                <rect x="4" y="2" width="1" height="12" fill="#2c1a0e" />
+                <rect x="11" y="2" width="1" height="12" fill="#2c1a0e" />
+                <rect x="4" y="12" width="1" height="3" fill="#3d2510" />
+                <rect x="11" y="12" width="1" height="3" fill="#3d2510" />
+
+
+                <!-- HEAD -->
+                <rect x="5" y="2" width="6" height="6" fill="#f5c18a" />
+
+
+                <!-- HAIR top -->
+                <rect x="4" y="1" width="8" height="2" fill="#2c1a0e" />
+                <rect x="5" y="0" width="6" height="1" fill="#2c1a0e" />
+                <!-- side hair strands -->
+                <rect x="4" y="3" width="1" height="5" fill="#2c1a0e" />
+                <rect x="11" y="3" width="1" height="5" fill="#2c1a0e" />
+
+
+                <!-- EYES (dark, no glasses frames yet) -->
+                <rect x="6" y="5" width="1" height="1" fill="#1a1a1a" />
+                <rect x="9" y="4" width="1" height="1" fill="#1a1a1a" />
+
+
+                <!-- MOUTH smile -->
+                <rect x="7" y="6" width="2" height="1" fill="#d4826a" />
+                <rect x="7" y="7" width="1" height="0" fill="#d4826a" />
+
+
+                <!-- DRESS body — lavender/purple -->
+                <rect x="5" y="8" width="6" height="6" fill="#c8a0e8" />
+                <!-- dress skirt flare -->
+                <rect x="4" y="11" width="8" height="4" fill="#b880d8" />
+                <rect x="3" y="13" width="10" height="2" fill="#a060c8" />
+                <!-- dress collar/neckline -->
+                <rect x="6" y="8" width="4" height="1" fill="#d8b8f0" />
+                <!-- dress belt detail -->
+                <rect x="5" y="11" width="6" height="1" fill="#8840a8" />
+
+
+                <!-- ARMS (skin) -->
+                <rect x="3" y="8" width="2" height="4" fill="#f5c18a" />
+                <rect x="11" y="8" width="2" height="4" fill="#f5c18a" />
+
+
+                <!-- LONG HAIR over shoulders/arms -->
+                <rect x="4" y="8" width="1" height="6" fill="#2c1a0e" />
+                <rect x="11" y="8" width="1" height="6" fill="#2c1a0e" />
+
+
+                <!-- LEGS (skin) -->
+                <rect x="6" y="15" width="2" height="2" fill="#f5c18a" />
+                <rect x="8" y="15" width="2" height="2" fill="#f5c18a" />
+
+
+                <!-- WHITE CONVERSES (shoes) -->
+                <!-- left shoe -->
+                <rect x="5" y="17" width="3" height="2" fill="#f0f0f0" />
+                <rect x="5" y="17" width="3" height="1" fill="#e0e0e0" />
+                <rect x="5" y="18" width="3" height="1" fill="#cccccc" />
+                <!-- converse toe cap -->
+                <rect x="5" y="17" width="1" height="2" fill="#e8e8e8" />
+                <!-- converse sole line -->
+                <rect x="5" y="18" width="3" height="1" fill="#aaaaaa" />
+                <!-- laces -->
+                <rect x="6" y="17" width="1" height="1" fill="#dddddd" />
+
+
+                <!-- right shoe -->
+                <rect x="8" y="17" width="3" height="2" fill="#f0f0f0" />
+                <rect x="8" y="17" width="3" height="1" fill="#e0e0e0" />
+                <rect x="10" y="17" width="1" height="2" fill="#e8e8e8" />
+                <rect x="8" y="18" width="3" height="1" fill="#aaaaaa" />
+                <rect x="9" y="17" width="1" height="1" fill="#dddddd" />
+
+
+                <!-- Ground shadow -->
+                <rect
+                  x="4"
+                  y="19"
+                  width="8"
+                  height="1"
+                  fill="rgba(0,0,0,0.15)"
+                />
+              </svg>
+            </div>
+
+
+
+
           <div class="stat-bars">
             <div class="stat-row"><span class="stat-label">Energy</span><div class="stat-bar-bg"><div class="stat-bar-fill gold" style="width:4%"></div></div></div>
             <div class="stat-row"><span class="stat-label">Social</span><div class="stat-bar-bg"><div class="stat-bar-fill blue" style="width:56%"></div></div></div>
